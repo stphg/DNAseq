@@ -73,7 +73,11 @@ Extracting and comparing tumour and normal VAFs enables discrimination between g
 Filtering for variants annotated to TP53 identified a single candidate somatic mutation with a tumour VAF of approximately 0.36. 
 This VAF is consistent with a heterozygous somatic event in a tumour sample and is absent or minimal in the matched germline control, supporting its classification as a somatic mutation.
 
-## Key Takeaways
+## ### Highlight Scripts
+
+- [QC & Alignment Pipeline](scripts/QC_alignment.sh) – Bash pipeline demonstrating DNA-seq QC, alignment, duplicate marking, and BQSR for paired tumour-normal samples.
+
+## 💡Summary
 - Rigorous QC at each stage is essential for reliable variant detection
 - Duplicate handling is critical in low-frequency variant contexts
 - Tumour–normal designs enable robust discrimination of somatic variants from germline background
