@@ -1,5 +1,5 @@
 #!/bin/bash
-# QC_alignment_pipeline.sh
+# QC_alignment.sh
 # Tumour-Normal DNA-seq QC, alignment, duplicate marking, and BQSR
 
 # 1. FASTQ QC
