@@ -1,7 +1,6 @@
 #!/bin/bash
 # QC_alignment_pipeline.sh
 # Tumour-Normal DNA-seq QC, alignment, duplicate marking, and BQSR
-# Highlight script for GitHub portfolio
 
 # 1. FASTQ QC
 module load fastqc
