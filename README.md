@@ -77,7 +77,7 @@ This VAF is consistent with a heterozygous somatic event in a tumour sample and 
 
 - [QC & Alignment Pipeline](scripts/QC_alignment.sh) – Bash pipeline demonstrating DNA-seq QC, alignment, duplicate marking, and BQSR for paired tumour-normal samples.
 - [Variant Calling & Annotation](scripts/variant_calling_annotation.sh) – Bash pipeline of VarScan variant calling and Annovar annotation for tumour-only and paired tumour-normal samples.
-
+- [Extract Somatic VAF](scripts/extract_somatic_VAF.R) – R script demonstrating extraction of tumour and normal VAFs from MultiAnnovar output, filtering for exonic, non-synonymous variants, and highlighting somatic mutations (e.g. TP53).
 
 ## 💡Summary
 - Rigorous QC at each stage is essential for reliable variant detection
